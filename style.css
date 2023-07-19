@@ -1,45 +1,124 @@
 body {
     background-color: rgb(233, 214, 205);
+    margin: 10px;
 }
 
-nav {
-    height: 50px;
+.container-fluid {
+    background-color: rgb(233, 214, 205);
+    margin-top: -10px;
+    padding-bottom: 15px;
+    margin-bottom: -5px;
+}
+
+.navbar-brand {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/000/581/888/small/icon0-vector-228-01.jpg);
+}
+
+.nav-item {
+    color: black;
+    font-family: "Prompt", monospace;
+    padding-left: 10px;
+    font-weight: 500px;
+}
+
+::placeholder {
+    font-family: "Prompt", monospace;
+}
+
+.btn {
+    color: rgb(143, 142, 142);
+    font-family: "Prompt", monospace;
 }
 
 h1 {
     background-color: rgb(233, 214, 205);
+    font-family: "Prompt", monospace;
+    font-size: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
     position: relative;
     height: 100px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 75px;
 }
 
 h2 {
     background-color: rgb(233, 214, 205);
+    font-size: 28px;
+    font-family: "Prompt", monospace;
     text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    font-family: "Prompt", monospace;
+    font-size: 26px;
+    padding: 10px;
+    
+}
+
+.card p {
+    padding: 16px;
+    font-family: "Prompt", monospace;
+}
+
+.recipes {
     display: flex;
     justify-content: center;
-    position: relative;
-    height: 100px;
-    margin: auto;
-    padding-top: 0px;
-    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 440px;
+    height: 560px;
+    margin: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.ramen-image {
+    height: 375px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 25px;
+    background: url(https://images.getrecipekit.com/20210930182508-untitled-design-33.jpg?aspect_ratio=1:1&quality=90&);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    justify-content:left;
+}
+
+.cauli-image {
+    height: 375px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 25px;
+    background: url(https://eatwithclarity.com/wp-content/uploads/2021/10/air-fryer-sesame-cauliflower-wings-4-500x375.jpg);
+    background-position: left top;
+   
+    padding: 20px;
+}
+
+.soba-image {
+    height: 375px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 25px;
+    background: url(https://honestcooking.com/wp-content/uploads/2014/12/Teriyaki-Steak-Soba-Wide.jpg);
+    background-position: left top;
+    padding: 20px;
 }
 
 .bar {
+    font-family: "Prompt", monospace;
     display: flex;
     flex-flow: row; 
     justify-content: center;
     text-align: center;
     list-style: none;
-    margin: 0; 
-    padding-left: 400px;
-    padding-top: 0px;
-    padding-bottom: 30px;
 }
 
 a {
@@ -50,33 +129,11 @@ a {
 }
 
 a:hover {
-    background: white;
-}
-
-.dish {
-    height: 500px;
-}
-
-.dflex .flex-row .mb-3 {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-}
-
-.recipe-box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
+    background: rgb(214, 196, 188);
 }
 
 footer {
+    font-family: "Prompt", monospace;
     text-align: center;
-    font-family: monospace;
-    padding-top: 500px;
+    padding-top: 30px;
 }
