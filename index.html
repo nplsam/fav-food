@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Favourite Food</title>
+    <title>Foodie</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Foodie</a>
+            <a img src="https://static.vecteezy.com/system/resources/thumbnails/000/581/888/small/icon0-vector-228-01.jpg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -25,12 +28,11 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Recipes</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>  
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -64,19 +66,27 @@
 
     <h2>Favourite Recipes</h2>
 
-    <div class="d-flex flex-row mb-3">
-        <div class="p-2">Meal 1</div>
-        <div class="p-2">Meal 2</div>
-        <div class="p-2">Meal 3</div>
-      </div>
+    <section class="recipes">
+        <div class="card">
+            <div class="ramen-image"></div>
+            <h3>Shoyu Ramen</h3>
+            <p class="card-text">Ramen noodles, scallions, garlic, soy sauce, eggs, sesame oil, pork and seaweed</p>
+        </div>
 
-    <div class="d-flex flex-row mb-3">
-        <div class="p-2">Ingredients </div>
-        <div class="p-2">Ingredients</div>
-        <div class="p-2">Ingredients</div>
-      </div>
+        <div class="card">
+            <div class="cauli-image"></div>
+            <h3>Cauliflower Wings</h3>
+            <p class="card-text">Cauliflower, panko, ginger, soy sauce, sesame seeds, red pepper flakes</p>
+        </div>
 
-    <footer>By LFA</footer>
+        <div class="card">
+            <div class="soba-image"></div>
+            <h3>Teriyaki Soba</h3>
+            <p class="card-text">Soba noodles, teriyaki sauce, ginger, mushrooms, garlic, carrot, red pepper, edamame and chicken</p>
+        </div>
+    </section>
+
+    <footer>By Sam Merrick</footer>
 
 </body>
 
