@@ -1,3 +1,82 @@
+body {
+    background-color: rgb(233, 214, 205);
+}
+
+nav {
+    height: 50px;
+}
+
 h1 {
-    color: rebeccapurple;
+    background-color: rgb(233, 214, 205);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+h2 {
+    background-color: rgb(233, 214, 205);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 75px;
+}
+
+.bar {
+    display: flex;
+    flex-flow: row; 
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin: 0; 
+    padding-left: 400px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+a:hover {
+    background: white;
+}
+
+.dish {
+    height: 500px;
+}
+
+.dflex .flex-row .mb-3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    padding-top: 500px;
 }
